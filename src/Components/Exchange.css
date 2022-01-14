@@ -10,6 +10,7 @@ body{
     height: 78vh;
     margin: 0 auto;
     display: grid;
+    color:white;
     grid-template-rows: .3fr 1.7fr;
     grid-template-columns: 1fr;
 

@@ -5,7 +5,7 @@ export default function Exchange() {
     return (
         <div className="containersss">
             <h1>Exchange</h1>
-            <p>Comming Soon!</p>
+            <p>Coming Soon!</p>
         </div>
     )
 }
