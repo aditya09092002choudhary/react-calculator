@@ -13,6 +13,7 @@ body{
     color:white;
     grid-template-rows: .3fr 1.7fr;
     grid-template-columns: 1fr;
+    padding:0 10px ;
 
 }
 h1{
