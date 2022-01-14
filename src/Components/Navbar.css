@@ -1,0 +1,27 @@
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
+  margin-bottom: 40px;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+.element {
+  margin: 10px 10px;
+}
+
+a:active{
+  color: aqua;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
