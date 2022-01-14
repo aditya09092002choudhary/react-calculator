@@ -51,7 +51,7 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(41, 40, 40);
 }
 
 .elements:hover{
@@ -76,7 +76,7 @@ input{
     }
     .containers{
         width: 88%;
-        height: 73vh;
+        height: 68vh;
     }
 
     .display,.bottom{
