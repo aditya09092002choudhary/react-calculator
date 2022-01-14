@@ -76,15 +76,15 @@ input{
     }
     .containers{
         width: 88%;
-        height: 68vh;
+        height: 65vh;
     }
 
     .display,.bottom{
-        width: 75%;
+        width: 80%;
     }
     #zero{
         padding-left: 15px;
-        padding-top: 5px;
+        padding-top: 9px;
     }
     .elements{
         font-size: 17px;
