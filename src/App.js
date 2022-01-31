@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Index from "./Components/Index";
+import Calculator from "./Components/Calculator";
 // import Footer from './Components/Footer';
 import Navbar from "./Components/Navbar";
 import Exchange from "./Components/Exchange";
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <Index />
+            <Calculator />
           </Route>
           <Route exact path="/exchange">
             <Exchange />
