@@ -13,7 +13,9 @@ export default function Calculator() {
     const clear = ()=>{
         setstate("");
     }
-
+    function remove(){
+        setstate(state.slice(0,-1));
+    }
     return (
         <div className='containers'>
             <div className="display">
@@ -21,13 +23,13 @@ export default function Calculator() {
             </div>
             <div className="bottom">
                 <button onClick={clear} className="elements" style={{background:"gray",color:"black"}}>C</button>
-                <button  className="elements" style={{background:"gray",color:"black"}}>+/-</button>
                 <button onClick={handleCLick} name='%' className="elements" style={{background:"gray",color:"black"}}>%</button>
+                <button onClick={remove} name='X' className="elements" style={{background:"gray",color:"black"}}>X</button>
                 <button onClick={handleCLick} name='/' className="elements" style={{background:"orange",color:"white",fontSize:"25px"}}>&divide;</button>
                 <button onClick={handleCLick} name='7' className="elements">7</button>
                 <button onClick={handleCLick} name='8' className="elements">8</button>
                 <button onClick={handleCLick} name='9' className="elements">9</button>
-                <button onClick={handleCLick} name='*' className="elements" style={{background:"orange",color:"white"}}>X</button>
+                <button onClick={handleCLick} name='*' className="elements" style={{background:"orange",color:"white"}}>*</button>
                 <button onClick={handleCLick} name='4' className="elements">4</button>
                 <button onClick={handleCLick} name='5' className="elements">5</button>
                 <button onClick={handleCLick} name='6' className="elements">6</button>

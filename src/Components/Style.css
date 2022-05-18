@@ -76,7 +76,8 @@ input{
     }
     .containers{
         width: 88%;
-        height: 65vh;
+        height: 60vh;
+        /* background: black; */
     }
 
     .display,.bottom{
